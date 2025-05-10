@@ -16,7 +16,7 @@ define('IMAGE_QUALITY', 85);
 define('API_RATE_LIMIT', 5);
 define('API_ALLOWED_ORIGINS', [
     'http://localhost',
-    'http://192.168.100.186'
+    'http://192.168.1.129'
 ]);
 
 // Security Configuration

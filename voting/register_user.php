@@ -123,7 +123,7 @@ try {
             'Treasurer' => 't',
             'Auditor' => 'a',
             'Business Manager' => 'b',
-            'Press Relation Officer' => 'pro'
+            'Press Relation Offic' => 'pro'
         ];
 
         // Get the prefix for the current position

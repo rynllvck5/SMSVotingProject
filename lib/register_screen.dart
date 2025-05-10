@@ -15,7 +15,7 @@ class RegisterScreen extends StatefulWidget {
 
 class _RegisterScreenState extends State<RegisterScreen> {
   // Constants
-  static const String baseUrl = 'http://192.168.127.79/voting';
+  static const String baseUrl = 'http://192.168.110.73/voting';
   static const Duration apiTimeout = Duration(seconds: 10);
   static const double imageSizeLimitMB = 2.0;
 
@@ -206,7 +206,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
               'Server responded with status: ${response.statusCode}',
         );
       }
-    } on FormatException catch (e) {
+    } on FormatException catch (e) { 
       // Now response is accessible here
       developer.log(
         'Raw response that failed to parse: ${response?.body ?? "No response"}',
